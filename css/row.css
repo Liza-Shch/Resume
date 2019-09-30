@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*
+    Относительные единицы измерения
+*/
+.row__element_margin-left {
+    margin-left: calc(1vw + 5px);
+}
+
+.row_space-between {
+    justify-content: space-between;
+}

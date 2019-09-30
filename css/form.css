@@ -1,0 +1,8 @@
+/*
+    Относительные единицы измерения
+*/
+.form {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: calc(1vw + 10px);
+}

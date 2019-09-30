@@ -1,0 +1,13 @@
+.project {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+    Относительные единицы измерения
+*/
+.project__title {
+    display: grid;
+    grid-gap: calc(0.5vw);
+    width: fit-content;
+}

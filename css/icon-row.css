@@ -1,0 +1,15 @@
+.icon-row {
+    display: flex;
+    align-items: center;
+}
+
+/*
+    Относительные единицы измерения
+*/
+.icon-row__icon {
+    width: calc(1vw + 10px);
+    height: calc(1vw + 10px);
+    margin-right: calc(1vw + 5px);
+    object-fit: cover;
+    object-position: center;
+}

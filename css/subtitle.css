@@ -1,0 +1,19 @@
+/*
+    Относительные единицы измерения
+*/
+.subtitle {
+    color: #C7CECF;
+    font-family: LatoMedium;
+    margin-bottom: calc(1vw + 10px);
+}
+
+/*
+    Относительные единицы измерения
+*/
+.subtitle_h2 {
+    font-size: 1.5rem;
+}
+
+.subtitle_bright {
+    color: #E75B5B;
+}

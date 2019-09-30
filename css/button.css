@@ -1,0 +1,19 @@
+/*
+    Относительные единицы измерения
+*/
+.button {
+    width: fit-content;
+    border-radius: 0.5vw;
+    padding: calc(1vw + 10px);
+    background-color: #E75B5B;
+    color: #FDF9F1;
+    border: none;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+/*
+    Псевдоселектор
+*/
+.button:hover {
+    background-color: #7C1A1A;
+}

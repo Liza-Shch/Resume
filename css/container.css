@@ -1,0 +1,28 @@
+/*
+    Относительные единицы измерения
+*/
+.container {
+    width: 100%;
+    min-height: 100%;
+    min-width: 250px;
+    padding: calc(5vw + 20px);
+    box-sizing: border-box;
+    background-color: #313634;
+    color: #C7CECF;
+}
+
+/*
+    Относительные единицы измерения
+*/
+.container__sidebar {
+    float: left;
+    margin-right: calc(4vw + 10px);
+    margin-bottom: calc(4vw + 10px);
+}
+
+/*
+    Относительные единицы измерения
+*/
+.container__block {
+    margin-top: calc(2vw + 10px);
+}
