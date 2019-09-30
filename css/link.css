@@ -1,0 +1,18 @@
+.link {
+    color: inherit;
+}
+
+/*
+    Псевдоселектор
+*/
+.link:hover {
+    color: #E75B5B;
+}
+
+/*
+    Относительные единицы измерения
+*/
+.link_title {
+    font-size: 1.2rem;
+    font-family: LatoMedium;
+}
