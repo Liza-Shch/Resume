@@ -1,0 +1,10 @@
+.tag {
+    text-align: right;
+}
+
+/*
+    Псевдоселектор
+*/
+.tag:hover {
+    color: #E75B5B;
+}

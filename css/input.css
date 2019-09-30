@@ -1,0 +1,12 @@
+/*
+    Относительные единицы измерения
+*/
+.input {
+    padding: calc(1vw + 10px);
+    border-radius: 0.5vw;
+    background-color: #C4C4C4;
+    color: #313634;
+    border: none;
+    resize: none;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+}

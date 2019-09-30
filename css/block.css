@@ -1,0 +1,11 @@
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+    Относительные единицы измерения
+*/
+.block__element {
+    margin-top: calc(0.5rem + 0.5vw);
+}

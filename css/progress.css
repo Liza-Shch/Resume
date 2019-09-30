@@ -1,0 +1,27 @@
+.progress {
+    width: auto;
+}
+
+/*
+    Селектор по атрибуту
+*/
+.progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 1em;
+}
+
+/*
+    Браузерный селектор
+*/
+.progress[value]::-webkit-progress-value {
+    background-color: #7C1A1A;
+}
+
+/*
+    Браузерный селектор
+*/
+.progress[value]::-moz-progress-bar {
+    background-color: #7C1A1A;
+}

@@ -1,0 +1,21 @@
+.input-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-block__input {}
+
+/*
+    Относительные единицы измерения
+*/
+.input-block__msg {
+    margin-top: 0.5rem;
+    display: none;
+}
+
+/*
+    Псевдоселектор и селектор первого правого соседа
+*/
+.input-block__input:invalid + .input-block__msg {
+    display: unset;
+}

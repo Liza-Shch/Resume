@@ -1,0 +1,37 @@
+@import 'css/reset.css';
+@import 'css/container.css';
+@import 'css/summary.css';
+@import 'css/title.css';
+@import 'css/avatar.css';
+@import 'css/subtitle.css';
+@import 'css/table.css';
+@import 'css/icon-row.css';
+@import 'css/block.css';
+@import 'css/project.css';
+@import 'css/link.css';
+@import 'css/skills.css';
+@import 'css/tag.css';
+@import 'css/progress.css';
+@import 'css/row.css';
+@import 'css/form.css';
+@import 'css/input-block.css';
+@import 'css/input.css';
+@import 'css/msg.css';
+@import 'css/button.css';
+
+@font-face {
+    font-family: LatoLight;
+    src: url('font/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: LatoMedium;
+    src: url('font/Lato-Medium.ttf');
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-size: calc(1vw + 10px);
+    font-family: LatoLight;
+}
